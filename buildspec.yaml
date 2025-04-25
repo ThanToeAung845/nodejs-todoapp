@@ -6,7 +6,7 @@ env:
     IMAGE_REPO_NAME: "todo-app"
     ECS_CLUSTER: "Ecs-Cluster"
     SERVICE_NAME: "todo-service"
-    TASK_DEF_FAMILY: "todoapptask"
+    #TASK_DEF_FAMILY: "todo-app"
     REPOSITORY_URI: "990012097859.dkr.ecr.ap-southeast-1.amazonaws.com/todo-app"
 
 phases:
