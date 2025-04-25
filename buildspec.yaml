@@ -7,6 +7,7 @@ env:
     ECS_CLUSTER: "Ecs-Cluster"
     SERVICE_NAME: "todo-service"
     TASK_DEF_FAMILY: "todoapptask"
+    REPOSITORY_URI: "990012097859.dkr.ecr.ap-southeast-1.amazonaws.com/todo-app"
 
 phases:
   pre_build:
